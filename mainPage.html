@@ -4,32 +4,72 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="mainPage.css">
     <title>文山越南美食大搜查</title>
 </head>
 
 <body>
     <header>
-        <nav></nav>
-        <h1>越南美食大搜查</h1>
+        <nav class="navbar navbar-toggleable-md navbar-light bg-faded fixed-top">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">文山越南美食大搜查</a>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">Dropdown link</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </header>
-    <ul class="nav nav-tabs">
-    <li data-toggle="tab">美食地圖</li>
-    <li data-toggle="tab">特色美食</li>
-    <li data-toggle="tab">店家推薦</li>
-    </ul>
-    <div id="map">
-        <p>map</p>
-        <img src="">
+    <div class="container">
+        <ul class="nav nav-tabs" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" data-toggle="tab" href="#map" role="tab">美食地圖</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#food" role="tab">特色美食</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#recommend" role="tab">店家推薦</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="tab-pane active" id="map" role="tabpanel">
+                <p>map</p>
+                <img src="">
+            </div>
+            <div class="tab-pane" id="food" role="tabpanel">
+                <p>food</p>
+                <img src="">
+            </div>
+            <div class="tab-pane" id="recommend" role="tabpanel">
+                <p>recommend</p>
+                <img src="">
+            </div>
+        </div>
+        <footer>
+            <div>聯絡電話:0800-000-000</div>
+            <div>聯絡信箱:VietnamFood@gmail.com</div>
+        </footer>
     </div>
-    <div id="food">
-        <p>food</p>
-        <img src="">
-    </div>
-    <footer>
-        <div>聯絡電話:0800-000-000</div>
-        <div>聯絡信箱:VietnamFood@gmail.com</div>
-    </footer>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
