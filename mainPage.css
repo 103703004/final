@@ -1,8 +1,12 @@
 .container{
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 footer{
    position:fixed;
    bottom:0px;
+   color: white;
+   background-color: black;
+   width: 100%;
 }
