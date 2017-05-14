@@ -1,0 +1,44 @@
+.menu{
+    width: 30px;
+    height: 3.5px;
+    background-color: white;
+    margin: 6px 0;
+}
+
+nav{
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+}
+
+#menuIcon{
+    width: 15%;
+    padding: 5px;
+}
+
+nav a{
+    width: 85%;
+    font-size: 1.6rem;
+    color: white;
+    text-align: right;
+    padding: 5px;
+}
+
+nav a:active {
+    text-decoration: none;
+    color: white;
+}
+
+ul{
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    padding: 15px;
+    padding-top: 0;
+    list-style-type: none;
+}
+
+.firstNav{
+    font-size: 1.3rem;
+}
