@@ -1,12 +1,55 @@
-.container{
-    margin-top: 100px;
-    margin-bottom: 100px;
+/*
+粉紅:#ffadbb
+粉藍:#8fc7fe
+粉綠:#b2dd85
+*/
+
+#mapName{
+    color: #b2dd85;
+    font-size: 0.95rem;
 }
 
-footer{
-   position:fixed;
-   bottom:0px;
-   color: white;
-   background-color: black;
-   width: 100%;
+#foodName{
+    color: #ffadbb;
+    font-size: 0.95rem;
+}
+
+#shopName{
+    color: #8fc7fe;
+    font-size: 0.95rem;
+}
+
+#img-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#img-container a{
+    width: 50%;
+    padding: 20px 10px;
+}
+
+
+#img-container a img{
+    width: 100%;
+    height: 100px;
+}
+
+#img-container a p{
+    text-align: center;
+    text-decoration: none;
+    background-color: #8fc7fe;
+    color: white;
+}
+
+#img-container a:active {
+    text-decoration: none;
+}
+
+#img-container a:hover {
+    text-decoration: none;
+}
+
+form{
+    margin-top: 20px;
 }

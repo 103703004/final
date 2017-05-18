@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
         crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="main.css">
     <link rel="stylesheet" type="text/css" href="mainPage.css">
     <title>文山越南美食大搜查</title>
 </head>
@@ -39,13 +40,13 @@
     <div class="container">
         <ul class="nav nav-tabs" role="tablist">
             <li class="nav-item">
-                <a class="nav-link active" data-toggle="tab" href="#map" role="tab">美食地圖</a>
+                <a class="nav-link active" data-toggle="tab" href="#map" role="tab" id="mapName">美食地圖</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" data-toggle="tab" href="#food" role="tab">特色美食</a>
+                <a class="nav-link" data-toggle="tab" href="#food" role="tab" id="foodName">特色美食</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" data-toggle="tab" href="#recommend" role="tab">店家推薦</a>
+                <a class="nav-link" data-toggle="tab" href="#recommend" role="tab" id="shopName">推薦店家</a>
             </li>
         </ul>
         <div class="tab-content">
@@ -56,15 +57,34 @@
             <div class="tab-pane" id="food" role="tabpanel">
                 <div id="img-container">
                     <a href="food.html">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Pho-Beef-Noodles-2008.jpg/220px-Pho-Beef-Noodles-2008.jpg"
-                        alt="越南河粉">
-                    <p>越南河粉</p>
+                        <img src="img/越南河粉.jpg" alt="越南河粉">
+                        <p>越南河粉</p>
+                    </a>
+                    <a href="#">
+                        <img src="img/越南生春卷.jpg" alt="越南生春卷">
+                        <p>越南生春卷</p>
                     </a>
                 </div>
             </div>
             <div class="tab-pane" id="recommend" role="tabpanel">
-                <p>recommend</p>
-                <img src="">
+                <form>
+                    <label for="person">推薦人</label>
+                    <input id="person">
+                    <br>
+                    <label for="person">信箱</label>
+                    <input id="person">
+                    <br>
+                    <label for="person">*店家名稱</label>
+                    <input id="person" required>
+                    <br>
+                    <label for="person">*店家地址</label>
+                    <input id="person" required>
+                    <br>
+                    <label for="person">備註</label>
+                    <input id="person">
+                    <br>
+                    <input type="submit" value="送出">
+                </form>
             </div>
         </div>
     </div>
