@@ -79,23 +79,20 @@
                 </div>
             </div>
             <div class="tab-pane" id="recommend" role="tabpanel">
-                <form>
-                    <label for="person">推薦人</label>
+                <form class="form-horizontal">
+                    <label class="control-label" for="person">推薦人</label>
                     <input type="text" id="person">
-                    <br>
-                    <label for="e-mail">信箱</label>
+                    <label class="control-label" for="e-mail">信箱</label>
                     <input type="email" id="e-mail">
-                    <br>
-                    <label for="shopNam">*店家名稱</label>
+                    <label class="control-label" for="shopNam">*店家名稱</label>
                     <input type="text" id="shopNam" required>
-                    <br>
-                    <label for="shopAddr">*店家地址</label>
+                    <label class="control-label" for="shopAddr">*店家地址</label>
                     <input type="text" id="shopAddr" required>
-                    <br>
-                    <label for="note">備註</label>
+                    <label class="control-label" for="note">備註</label>
                     <input type="text" id="note">
-                    <br>
-                    <input type="submit" value="送出">
+                    <div id="sub">
+                        <button type="submit" class="btn btn-success">送出</button>
+                    </div>
                 </form>
             </div>
         </div>

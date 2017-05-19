@@ -1,3 +1,15 @@
 img{
     width: 100%;
 }
+
+#title{
+    color: blue;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+dt{
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
