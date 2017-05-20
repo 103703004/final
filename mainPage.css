@@ -8,19 +8,26 @@
     text-align: center;
 }
 
-#mapName{
+#mapName p{
     color: #b2dd85;
     font-size: 0.95rem;
+    margin-bottom: 0px;
 }
 
-#foodName{
+#foodName p{
     color: #ffadbb;
     font-size: 0.95rem;
+    margin-bottom: 0px;
 }
 
-#shopName{
+#shopName p{
     color: #8fc7fe;
     font-size: 0.95rem;
+    margin-bottom: 0px;
+}
+
+i{
+    color: black;
 }
 
 #img-container{

@@ -27,3 +27,7 @@ footer{
 .bigNav{
     font-size: 1.1rem;
 }
+
+footer i{
+    color: white;
+}
