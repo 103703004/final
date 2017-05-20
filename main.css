@@ -9,4 +9,21 @@ footer{
    color: white;
    background-color: black;
    width: 100%;
+   text-align: center;
+}
+
+#contactUs{
+    font-size: 1.2rem;
+}
+
+.contact{
+    display: none;
+}
+
+.title{
+    font-size: 1.5rem;
+}
+
+.bigNav{
+    font-size: 1.1rem;
 }
