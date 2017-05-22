@@ -14,6 +14,7 @@ footer{
 
 #contactUs{
     font-size: 1.2rem;
+    color: #00DDDD;
 }
 
 .contact{
@@ -29,5 +30,5 @@ footer{
 }
 
 footer i{
-    color: white;
+    color: #00DDDD;;
 }
