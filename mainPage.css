@@ -85,6 +85,11 @@ form input{
     margin-top: 10px;
 }
 
+#sub button{
+    background-color: #6be4da;
+    color: white;
+}
+
 textarea{
     width: 65%;
 }
