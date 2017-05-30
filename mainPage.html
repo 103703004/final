@@ -25,7 +25,11 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle bigNav" href="#" id="navbarFoodLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">美食品嘗</a>
                         <div class="dropdown-menu" aria-labelledby="navbarFoodLink">
-                            <a class="dropdown-item" href="food.html">越南河粉</a>
+                            <div id="appNav">
+                                <div v-for="s in activities">
+                                    <a class="dropdown-item" href="food.html">{{s.title}}</a>
+                                </div>
+                            </div>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
@@ -73,19 +77,19 @@
                         <img src="img/越南河粉1.jpg" alt="越南河粉">
                         <p>越南河粉</p>
                     </a>
-                    <a href="#">
+                    <a href="food.html">
                         <img src="img/越南生春卷1.jpg" alt="越南生春卷">
                         <p>越南生春卷</p>
                     </a>
-                    <a href="#">
+                    <a href="food.html">
                         <img src="img/越式法國麵包1.jpg" alt="越式法國麵包">
                         <p>越式法國麵包</p>
                     </a>
-                    <a href="#">
+                    <a href="food.html">
                         <img src="img/方形肉粽1.jpg" alt="方形肉粽">
                         <p>方形肉粽</p>
                     </a>
-                    <a href="#">
+                    <a href="food.html">
                         <img src="img/越南咖啡1.jpg" alt="越南咖啡">
                         <p>越南咖啡</p>
                     </a>
@@ -122,6 +126,8 @@
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
         crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/vue"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.0.0/firebase.js"></script>
     <script src="main.js"></script>
     <script src="mainPage.js"></script>
 </body>
