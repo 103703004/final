@@ -26,8 +26,8 @@
                         <a class="nav-link dropdown-toggle bigNav" href="#" id="navbarFoodLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">美食品嘗</a>
                         <div class="dropdown-menu" aria-labelledby="navbarFoodLink">
                             <div id="appNav">
-                                <div v-for="s in activities">
-                                    <a class="dropdown-item" href="food.html">{{s.title}}</a>
+                                <div v-for="(s , aid) in activities">
+                                    <a class="dropdown-item" :href="'food.html?aid=' + aid">{{s.title}}</a>
                                 </div>
                             </div>
                         </div>
@@ -52,7 +52,7 @@
     <div class="container" id="app">
         <div v-for="s in activities">
             <h1 id="title">{{s.title}}</h1>
-            <img src="img/越南河粉.jpg" alt="越南河粉" width="100%">
+            <img v-bind:src="s.src" alt="越南河粉" width="100%">
             <dl>
                 <dt>名稱：</dt>
                 <dd>{{s.名稱}}</dd>

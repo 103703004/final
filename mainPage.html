@@ -26,8 +26,8 @@
                         <a class="nav-link dropdown-toggle bigNav" href="#" id="navbarFoodLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">美食品嘗</a>
                         <div class="dropdown-menu" aria-labelledby="navbarFoodLink">
                             <div id="appNav">
-                                <div v-for="s in activities">
-                                    <a class="dropdown-item" href="food.html">{{s.title}}</a>
+                                <div v-for="(s , aid) in activities">
+                                    <a class="dropdown-item" :href="'food.html?aid=' + aid">{{s.title}}</a>
                                 </div>
                             </div>
                         </div>
@@ -72,27 +72,15 @@
                 <img src="">
             </div>
             <div class="tab-pane" id="food" role="tabpanel">
-                <div id="img-container">
-                    <a href="food.html">
-                        <img src="img/越南河粉1.jpg" alt="越南河粉">
-                        <p>越南河粉</p>
-                    </a>
-                    <a href="food.html">
-                        <img src="img/越南生春卷1.jpg" alt="越南生春卷">
-                        <p>越南生春卷</p>
-                    </a>
-                    <a href="food.html">
-                        <img src="img/越式法國麵包1.jpg" alt="越式法國麵包">
-                        <p>越式法國麵包</p>
-                    </a>
-                    <a href="food.html">
-                        <img src="img/方形肉粽1.jpg" alt="方形肉粽">
-                        <p>方形肉粽</p>
-                    </a>
-                    <a href="food.html">
-                        <img src="img/越南咖啡1.jpg" alt="越南咖啡">
-                        <p>越南咖啡</p>
-                    </a>
+                <div id="food1">
+                    <div id="img-container">
+                        <div v-for="(s , aid) in activities" id="imgs">
+                            <a :href="'food.html?aid=' + aid">
+                                <img v-bind:src="s.src1" alt="越南河粉">
+                                <p>{{s.title}}</p>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="tab-pane" id="recommend" role="tabpanel">
