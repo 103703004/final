@@ -9,7 +9,7 @@ function getParameterByName(name, url) {
 }
 
 var aid = getParameterByName('aid');
-console.log(aid)
+//console.log(aid)
 
 var app = new Vue({
     el: "#app",
@@ -28,8 +28,8 @@ var app = new Vue({
                 // setup login status 
                 var msg = msgSnapshot.val()
                 var t = msg.title;
-                console.log(msg)
-                console.log(msgSnapshot.key)
+                //console.log(msg)
+                //console.log(msgSnapshot.key)
                 if(t === aid){
                     vm.$set(vm.activities, msgSnapshot.key, msg)
                 }                
