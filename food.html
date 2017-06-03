@@ -35,14 +35,11 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle bigNav" href="#" id="navbarShopLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">店家探索</a>
                         <div class="dropdown-menu" aria-labelledby="navbarShopLink">
-                            <a class="dropdown-item" href="shop.html">越南大食館</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle bigNav" href="#" id="navbarShopLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">聯絡我們</a>
-                        <div class="dropdown-menu" aria-labelledby="navbarShopLink">
-                            <div class="dropdown-item">聯絡電話:0800-000-000</div>
-                            <div class="dropdown-item">聯絡信箱:VietnamFood@gmail.com</div>
+                            <div id="appNav1">
+                                <div v-for="(s , aid) in activities">
+                                    <a class="dropdown-item" :href="'shop.html?aid=' + aid">{{s.title}}</a>
+                                </div>
+                            </div>
                         </div>
                     </li>
                 </ul>
@@ -52,7 +49,7 @@
     <div class="container" id="app">
         <div v-for="s in activities">
             <h1 id="title">{{s.title}}</h1>
-            <img v-bind:src="s.src" alt="越南河粉" width="100%">
+            <img v-bind:src="s.src" v-bind:alt="s.title" width="100%">
             <dl>
                 <dt>名稱：</dt>
                 <dd>{{s.名稱}}</dd>

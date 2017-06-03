@@ -35,7 +35,11 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle bigNav" href="#" id="navbarShopLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">店家探索</a>
                         <div class="dropdown-menu" aria-labelledby="navbarShopLink">
-                            <a class="dropdown-item" href="shop.html">越南大食館</a>
+                            <div id="appNav1">
+                                <div v-for="(s , aid) in activities">
+                                    <a class="dropdown-item" :href="'shop.html?aid=' + aid">{{s.title}}</a>
+                                </div>
+                            </div>
                         </div>
                     </li>
                 </ul>

@@ -1,4 +1,4 @@
-var appNav = new Vue({
+var food1 = new Vue({
     el: "#food1",
 
     data: {

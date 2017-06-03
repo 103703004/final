@@ -41,3 +41,24 @@ var appNav = new Vue({
 
     }
 })
+
+var appNav1 = new Vue({
+    el: "#appNav1",
+
+    data: {
+        activities: {}
+    },
+
+    methods: {
+
+    },
+    created: function created() {
+        var vm = this;
+        shopRef.on("value", function (dataSnapshot) {
+            var msg = dataSnapshot.val();
+            //console.log(msg);
+            vm.activities = msg;
+        })
+
+    }
+})
