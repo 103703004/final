@@ -93,3 +93,8 @@ form input{
 textarea{
     width: 65%;
 }
+
+#map1 {
+        height: 400px;
+        width: 100%;
+       }

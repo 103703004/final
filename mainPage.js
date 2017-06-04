@@ -39,3 +39,20 @@ var shop1 = new Vue({
 
     }
 })
+
+function initMap() {
+        var uluru = {lat: 24.987090,lng: 121.568844};
+        var a = {lat: 24.986943,lng:121.579404}
+        var map1 = new google.maps.Map(document.getElementById('map1'), {
+          zoom: 13,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map1,
+        });
+        var marker = new google.maps.Marker({
+          position: a,
+          map: map1
+        });
+      }
