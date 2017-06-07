@@ -35,6 +35,10 @@ var app = new Vue({
                 }                
             })
         })
-
+        foodRef.child(aid).child("相關店家").on("value", function (dataSnapshot) {
+            var msg = dataSnapshot.val();
+            //console.log(msg);
+            vm.activity = msg;
+        })
     }
 })

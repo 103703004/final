@@ -61,16 +61,31 @@
                 <dt>製作方式：</dt>
                 <dd>{{s.製作方式}}</dd>
                 <dt>相關店家：</dt>
-                <dd>{{s.相關店家.店名}}</dd>
+                <!--<dd><a>{{d.相關店家.店名1}}</a></dd>
+                    <dd><a>{{d.相關店家.店名2}}</a></dd>-->
+                <div v-for="d in activity">
+                    <dd><a>{{d.title}}</a></dd>
+                </div>
             </dl>
         </div>
     </div>
-    <!--<footer>
-        <i class="fa fa-caret-up" aria-hidden="true"></i>
-        <div id="contactUs">聯絡我們</div>
-        <div class="contact">聯絡電話:0800-000-000</div>
-        <div class="contact">聯絡信箱:VietnamFood@gmail.com</div>
-    </footer>-->
+    <footer>
+        <a class="part33">
+            <i class="fa fa-map-marker" aria-hidden="true"></i>
+            <br>
+            <p>美食地圖</p>
+        </a>
+        <a class="part33">
+            <i class="fa fa-heart" aria-hidden="true"></i>
+            <br>
+            <p>特色美食</p>
+        </a>
+        <a class="part33">
+            <i class="fa fa-share" aria-hidden="true"></i>
+            <br>
+            <p>推薦店家</p>
+        </a>
+    </footer>
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
