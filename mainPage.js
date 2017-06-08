@@ -1,3 +1,29 @@
+function getParameterByName(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, "\\$&");
+    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, " "));
+}
+
+var aid = getParameterByName('aid');
+
+if(aid === "特色美食"){
+    $("#mapName").removeClass("active")
+    $("#foodName").addClass("active")
+    $("#map").removeClass("active")
+    $("#food").addClass("active")
+}
+
+if(aid === "推薦店家"){
+    $("#mapName").removeClass("active")
+    $("#shopName").addClass("active")
+    $("#map").removeClass("active")
+    $('#recommend').addClass("active")
+}
+
 var food1 = new Vue({
     el: "#food1",
 

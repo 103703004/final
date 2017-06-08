@@ -43,3 +43,12 @@ footer p{
 .part33{
     width: 33%;
 }
+
+footer a{
+    color: white;
+}
+
+footer a:hover{
+    color: white;
+    text-decoration: none;
+}

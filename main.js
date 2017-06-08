@@ -1,8 +1,3 @@
-$("footer").on("click", function () {
-    $(".contact").toggle();
-    $("footer i").toggleClass('fa-caret-up fa-caret-down');
-});
-
 // Initialize Firebase
 var config = {
     apiKey: "AIzaSyAZexUoWbiC2J7RJf9qGAhvxkEnqDqqzfk",

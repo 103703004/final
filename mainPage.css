@@ -97,4 +97,8 @@ textarea{
 #map1 {
         height: 400px;
         width: 100%;
-       }
+}
+
+button{
+    margin: auto;
+}
