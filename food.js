@@ -15,7 +15,8 @@ var app = new Vue({
     el: "#app",
 
     data: {
-        activities: {}
+        activities: {},
+        activity:{}
     },
 
     methods: {
@@ -37,8 +38,16 @@ var app = new Vue({
         })
         foodRef.child(aid).child("相關店家").on("value", function (dataSnapshot) {
             var msg = dataSnapshot.val();
-            //console.log(msg);
-            vm.activity = msg;
+            //console.log(msg.暫無.title);
+            if(msg.暫無){
+                console.log(msg.暫無.title);
+                //$("#none").text(msg.暫無.title)
+                $("#store").attr("display","none")
+            }
+            else{
+                vm.activity = msg;
+            }
+            
         })
     }
 })

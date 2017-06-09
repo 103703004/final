@@ -60,7 +60,7 @@
                 <dd>{{s.歷史}}</dd>
                 <dt>製作方式：</dt>
                 <dd>{{s.製作方式}}</dd>
-                <dt>相關店家：</dt>
+                <dt id="store">相關店家：</dt>
                 <!--<dd><a>{{d.相關店家.店名1}}</a></dd>
                     <dd><a>{{d.相關店家.店名2}}</a></dd>-->
                 <div v-for="(d,aid) in activity">
@@ -94,6 +94,7 @@
         crossorigin="anonymous"></script>
     <script src="https://unpkg.com/vue"></script>
     <script src="https://www.gstatic.com/firebasejs/4.0.0/firebase.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="main.js"></script>
     <script src="food.js"></script>
 </body>
