@@ -131,8 +131,8 @@ function initMap() {
     });
     marker5.addListener('click', function () {
         var infowincontent = document.createElement('a');
-        infowincontent.textContent = "西貢越南美食"
-        infowincontent.href = "shop.html?aid=西貢越南美食"
+        infowincontent.textContent = "僑緣越南美食"
+        infowincontent.href = "shop.html?aid=僑緣越南美食"
         infoWindow.setContent(infowincontent);
         infoWindow.open(map1, marker5);
     });
@@ -153,8 +153,8 @@ function initMap() {
     });
     marker7.addListener('click', function () {
         var infowincontent = document.createElement('a');
-        infowincontent.textContent = "大東海越南餐廳"
-        infowincontent.href = "shop.html?aid=大東海越南餐廳"
+        infowincontent.textContent = "順化米線"
+        infowincontent.href = "shop.html?aid=順化米線"
         infoWindow.setContent(infowincontent);
         infoWindow.open(map1, marker7);
     });
@@ -164,8 +164,8 @@ function initMap() {
     });
     marker8.addListener('click', function () {
         var infowincontent = document.createElement('a');
-        infowincontent.textContent = "無名小店"
-        infowincontent.href = "shop.html?aid=無名小店"
+        infowincontent.textContent = "道地越南小吃"
+        infowincontent.href = "shop.html?aid=道地越南小吃"
         infoWindow.setContent(infowincontent);
         infoWindow.open(map1, marker8);
     });
