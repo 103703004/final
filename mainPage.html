@@ -75,16 +75,28 @@
         </ul>
         <div class="tab-content">
             <div class="tab-pane active" id="map" role="tabpanel">
-                <!--<div id="map1"></div>-->
-                <button>店家導覽</button>
-                <button>美食地圖</button>
-                <div id="shop1">
-                    <div class="img-container">
-                        <div v-for="(s , aid) in activities" class="imgs">
-                            <a :href="'shop.html?aid=' + aid">
+                <ul class="nav nav-tabs" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" data-toggle="tab" href="#list" role="tab">店家導覽</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#m" role="tab">美食地圖</a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane" id="m" role="tabpanel">
+                        <div id="map1"></div>
+                    </div>
+                    <div class="tab-pane active" id="list" role="tabpanel">
+                        <div id="shop1">
+                            <div class="img-container">
+                                <div v-for="(s , aid) in activities" class="imgs">
+                                    <a :href="'shop.html?aid=' + aid">
                                 <img v-bind:src="s.src1" v-bind:alt="s.title">
                                 <p>{{s.title}}</p>
                             </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
