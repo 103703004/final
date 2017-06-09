@@ -63,8 +63,8 @@
                 <dt>相關店家：</dt>
                 <!--<dd><a>{{d.相關店家.店名1}}</a></dd>
                     <dd><a>{{d.相關店家.店名2}}</a></dd>-->
-                <div v-for="d in activity">
-                    <dd><a>{{d.title}}</a></dd>
+                <div v-for="(d,aid) in activity">
+                    <dd><a :href="'shop.html?aid=' + aid">{{d.title}}</a></dd>
                 </div>
             </dl>
         </div>
