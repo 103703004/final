@@ -164,8 +164,8 @@ function initMap() {
     });
     marker8.addListener('click', function () {
         var infowincontent = document.createElement('a');
-        infowincontent.textContent = "道地越南小吃"
-        infowincontent.href = "shop.html?aid=道地越南小吃"
+        infowincontent.textContent = "道地越南美食"
+        infowincontent.href = "shop.html?aid=道地越南美食"
         infoWindow.setContent(infowincontent);
         infoWindow.open(map1, marker8);
     });

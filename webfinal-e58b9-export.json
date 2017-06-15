@@ -1,49 +1,430 @@
 {
   "food" : {
-    "越南河粉" : {
-      "title" : "越南河粉",
-      "名稱" : "越南河粉，越南名為Phở bò。",
-      "歷史" : "越南河粉最早紀錄於 1920 年河內東南方的南定省。有人說當時廚師為了滿足當地人及法國居民的需求，而發明牛肉河粉；也有人說其來自南定省一個貧困的村落文居（Van Cu），當時大家為了生存，便做了牛肉河粉沿街叫賣。雖然確切起源並不可考，不過一般認為越南河粉與中式及法式料理有關。",
-      "相關店家" : {
-        "店名" : "店名"
-      },
-      "製作方式" : "以牛骨加入各式香料慢火熬燉8個小時以上的牛肉清湯，淋入碗中將新鮮薄透的生牛肉片燙熟。配上口感Q彈的米粉，佐以香菜、蔥、九層塔、豆芽、青檸檬等新鮮香料製成。不過越南河粉是一道很家常的料理，幾乎家家戶戶都有自己獨門的做法和配料。"
-    },
-    "越南生春卷" : {
-      "title" : "越南生春卷",
-      "名稱" : "越南生春捲，在南越叫作 Gỏi cuốn，北越則稱 Nem cuốn。",
-      "歷史" : "關於越南生春捲的歷史眾說紛紜，有的人認為是中國炸春捲的變形，不過也有的人認為這道菜是出自越南當地的菜餚。",
-      "相關店家" : {
-        "店名" : "店名"
-      },
-      "製作方式" : "越南生春捲的餡料變化多端，一般來是以半透明的Q彈米紙包入肉、蔬菜、香草、米粉等，再沾著甜中帶酸、酸中帶鹹的醬汁一起享用。"
-    },
-    "越式法國麵包" : {
-      "title" : "越式法國麵包",
-      "名稱" : "越式法國麵包，或稱越南式三明治，越南名為Bánh mì，意指麵粉做的餅。",
-      "歷史" : "法國殖民越南時，也將法國麵包帶至越南。由於當時的米比麵粉便宜，越南當地便再製作麵包時加入米粉，形成獨特風味。",
-      "相關店家" : {
-        "店名" : "店名"
-      },
-      "製作方式" : "製作麵包時，除了用麵粉外，亦會加入米粉，質感相對較脆，也較傳統法國麵包輕。當地人進食時，常常夾入帶甜酸味的白紅蘿蔔絲醃菜、新鮮黃瓜、芫荽、辣椒，塗以豬肝醬、奶油，加入不同肉片，但多數不用起司。"
-    },
     "方形肉粽" : {
+      "src" : "https://firebasestorage.googleapis.com/v0/b/webfinal-e58b9.appspot.com/o/%E6%96%B9%E5%BD%A2%E8%82%89%E7%B2%BD.jpg?alt=media&token=f7b65173-02e0-4b90-9147-b743593cd652",
+      "src1" : "https://firebasestorage.googleapis.com/v0/b/webfinal-e58b9.appspot.com/o/%E6%96%B9%E5%BD%A2%E8%82%89%E7%B2%BD1.jpg?alt=media&token=34100c86-4c15-41df-b42d-dcd38f0e558f",
       "title" : "方形肉粽",
       "名稱" : "越南的方形粽，又稱越南餅粽，越南文為Bánh chưng。",
       "歷史" : "西元前1600年，鴻龐氏王朝被視為越南國家歷史的開端，國王被稱為「雄王」。雄王六世為了選拔繼承者，將自己的21個兒子找來，要他們各自準備一道菜，誰準備的菜能討雄王歡心，誰就是下一任的國王。所有的王子獻給雄王的都是各國昂貴又稀有的異國料理，只有最小的王子蘭柳獻上了一個圓形粽以及方形粽。雄王大怒，問他為何送上如此隨便的食物，王子卻說：越南以農立國，國人多種植稻米、養豬為生，糯米取自稻米、豬肉來自養的豬、綠豆代表大地。圓形粽代表「天」、方形粽代表「地」，兩顆粽子代表了全國人民的辛苦，雄王聽完非常感動，就將王位傳給了小王子，從此人民也將方粽、圓粽當做年粽，用來紀念愛民的雄王七世。",
       "相關店家" : {
-        "店名" : "店名"
+        "暫無" : {
+          "title" : "暫無"
+        }
       },
       "製作方式" : "將糯米浸泡後加肥豬肉、綠豆和黑胡椒作餡，以尖苞柊葉或芭蕉葉包裹、蒸熟，蘸魚露食用。"
     },
     "越南咖啡" : {
+      "src" : "https://firebasestorage.googleapis.com/v0/b/webfinal-e58b9.appspot.com/o/%E8%B6%8A%E5%8D%97%E5%92%96%E5%95%A1.jpg?alt=media&token=236d194c-8c23-44f9-b63e-912764f84a03",
+      "src1" : "https://firebasestorage.googleapis.com/v0/b/webfinal-e58b9.appspot.com/o/%E8%B6%8A%E5%8D%97%E5%92%96%E5%95%A11.jpg?alt=media&token=d5fe8758-5e4a-4c25-b28c-4ef14b783060",
       "title" : "越南咖啡",
       "名稱" : "越南咖啡，越南語為cà phê đá，在北越稱為越南冰牛奶咖啡cà phê nâu đá。",
       "歷史" : "法國殖民年代初期，法國人將咖啡豆帶至越南，然而越南缺乏新鮮奶源，又無法將容易變壞的牛奶長途跋涉經水路運來。因此，才退而求其次把方便運送的煉乳帶到越南，繼而成為越南咖啡的一大特色。",
       "相關店家" : {
-        "店名" : "店名"
+        "僑緣越南美食" : {
+          "title" : "僑緣越南美食"
+        },
+        "大東海越南餐廳" : {
+          "title" : "大東海越南餐廳"
+        },
+        "景美越南小吃" : {
+          "title" : "景美越南小吃"
+        },
+        "滿福台越小館" : {
+          "title" : "滿福台越小館"
+        },
+        "越南大食館" : {
+          "title" : "越南大食館"
+        },
+        "道地越南美食" : {
+          "title" : "道地越南美食"
+        },
+        "順化米線" : {
+          "title" : "順化米線"
+        }
       },
       "製作方式" : "越南咖啡是一種滴漏咖啡。通常先在咖啡杯內放上煉乳，再蓋上裝有咖啡碎粒的金屬容器。將熱水倒入容器，水會流過咖啡，再通過咖啡容器的開孔滴入杯中。"
+    },
+    "越南河粉" : {
+      "src" : "https://firebasestorage.googleapis.com/v0/b/webfinal-e58b9.appspot.com/o/%E8%B6%8A%E5%8D%97%E6%B2%B3%E7%B2%89.jpg?alt=media&token=a6168408-5764-482d-af82-542a18819339",
+      "src1" : "https://firebasestorage.googleapis.com/v0/b/webfinal-e58b9.appspot.com/o/%E8%B6%8A%E5%8D%97%E6%B2%B3%E7%B2%891.jpg?alt=media&token=9b4399c6-2d33-4e8f-beb0-f75f914343f0",
+      "title" : "越南河粉",
+      "名稱" : "越南河粉，越南名為Phở bò。",
+      "歷史" : "越南河粉最早紀錄於 1920 年河內東南方的南定省。有人說當時廚師為了滿足當地人及法國居民的需求，而發明牛肉河粉；也有人說其來自南定省一個貧困的村落文居（Van Cu），當時大家為了生存，便做了牛肉河粉沿街叫賣。雖然確切起源並不可考，不過一般認為越南河粉與中式及法式料理有關。",
+      "相關店家" : {
+        "僑緣越南美食" : {
+          "title" : "僑緣越南美食"
+        },
+        "大東海越南餐廳" : {
+          "title" : "大東海越南餐廳"
+        },
+        "景美越南小吃" : {
+          "title" : "景美越南小吃"
+        },
+        "滿福台越小館" : {
+          "title" : "滿福台越小館"
+        },
+        "華越美食" : {
+          "title" : "華越美食"
+        },
+        "西貢越南美食" : {
+          "title" : "西貢越南美食"
+        },
+        "越南大食館" : {
+          "title" : "越南大食館"
+        },
+        "道地越南美食" : {
+          "title" : "道地越南美食"
+        },
+        "順化米線" : {
+          "title" : "順化米線"
+        }
+      },
+      "製作方式" : "以牛骨加入各式香料慢火熬燉8個小時以上的牛肉清湯，淋入碗中將新鮮薄透的生牛肉片燙熟。配上口感Q彈的米粉，佐以香菜、蔥、九層塔、豆芽、青檸檬等新鮮香料製成。不過越南河粉是一道很家常的料理，幾乎家家戶戶都有自己獨門的做法和配料。"
+    },
+    "越南生春卷" : {
+      "src" : "https://firebasestorage.googleapis.com/v0/b/webfinal-e58b9.appspot.com/o/%E8%B6%8A%E5%8D%97%E7%94%9F%E6%98%A5%E5%8D%B7.jpg?alt=media&token=f5354137-f834-4ac4-8bcb-0f9a63109117",
+      "src1" : "https://firebasestorage.googleapis.com/v0/b/webfinal-e58b9.appspot.com/o/%E8%B6%8A%E5%8D%97%E7%94%9F%E6%98%A5%E5%8D%B71.jpg?alt=media&token=70cfd448-db8f-45ed-be22-d7637158257f",
+      "title" : "越南生春卷",
+      "名稱" : "越南生春捲，在南越叫作 Gỏi cuốn，北越則稱 Nem cuốn。",
+      "歷史" : "關於越南生春捲的歷史眾說紛紜，有的人認為是中國炸春捲的變形，不過也有的人認為這道菜是出自越南當地的菜餚。",
+      "相關店家" : {
+        "僑緣越南美食" : {
+          "title" : "僑緣越南美食"
+        },
+        "大東海越南餐廳" : {
+          "title" : "大東海越南餐廳"
+        },
+        "景美越南小吃" : {
+          "title" : "景美越南小吃"
+        },
+        "滿福台越小館" : {
+          "title" : "滿福台越小館"
+        },
+        "華越美食" : {
+          "title" : "華越美食"
+        },
+        "越南大食館" : {
+          "title" : "越南大食館"
+        }
+      },
+      "製作方式" : "越南生春捲的餡料變化多端，一般來是以半透明的Q彈米紙包入肉、蔬菜、香草、米粉等，再沾著甜中帶酸、酸中帶鹹的醬汁一起享用。"
+    },
+    "越式法國麵包" : {
+      "src" : "https://firebasestorage.googleapis.com/v0/b/webfinal-e58b9.appspot.com/o/%E8%B6%8A%E5%BC%8F%E6%B3%95%E5%9C%8B%E9%BA%B5%E5%8C%85.jpg?alt=media&token=2552f427-bbde-4771-8ee2-3f23863050ae",
+      "src1" : "https://firebasestorage.googleapis.com/v0/b/webfinal-e58b9.appspot.com/o/%E8%B6%8A%E5%BC%8F%E6%B3%95%E5%9C%8B%E9%BA%B5%E5%8C%851.jpg?alt=media&token=293ff9bc-6fa0-4565-8f7c-5432e9a693b2",
+      "title" : "越式法國麵包",
+      "名稱" : "越式法國麵包，或稱越南式三明治，越南名為Bánh mì，意指麵粉做的餅。",
+      "歷史" : "法國殖民越南時，也將法國麵包帶至越南。由於當時的米比麵粉便宜，越南當地便再製作麵包時加入米粉，形成獨特風味。",
+      "相關店家" : {
+        "大東海越南餐廳" : {
+          "title" : "大東海越南餐廳"
+        },
+        "景美越南小吃" : {
+          "title" : "景美越南小吃"
+        },
+        "滿福台越小館" : {
+          "title" : "滿福台越小館"
+        },
+        "越南大食館" : {
+          "title" : "越南大食館"
+        },
+        "道地越南美食" : {
+          "title" : "道地越南美食"
+        }
+      },
+      "製作方式" : "製作麵包時，除了用麵粉外，亦會加入米粉，質感相對較脆，也較傳統法國麵包輕。當地人進食時，常常夾入帶甜酸味的白紅蘿蔔絲醃菜、新鮮黃瓜、芫荽、辣椒，塗以豬肝醬、奶油，加入不同肉片，但多數不用起司。"
+    },
+    "越式煎餅" : {
+      "src" : "https://firebasestorage.googleapis.com/v0/b/webfinal-e58b9.appspot.com/o/%E8%B6%8A%E5%BC%8F%E7%85%8E%E9%A4%85.jpg?alt=media&token=28314ef9-52ad-4512-a004-fc16be56c4b2",
+      "src1" : "https://firebasestorage.googleapis.com/v0/b/webfinal-e58b9.appspot.com/o/%E8%B6%8A%E5%BC%8F%E7%85%8E%E9%A4%851.jpg?alt=media&token=56a07463-86a9-4e21-aa52-fd96d7d4eeb2",
+      "title" : "越式煎餅",
+      "名稱" : "越式煎餅，又稱越式煎班燒，越南文為bánh xèo。",
+      "歷史" : "有人認為越式煎餅是法國殖民下的產物。但事實上，在法國殖民前，這道菜就已經出現了。越式煎餅是古代高棉的傳統食品。受到印度薄餅影響，越南煎餅的餅皮以米穀粉、水及薑黃製成，這也就是為什麼餅皮是黃的。而xèo字形容餅放入鍋子時發出來的聲音。",
+      "相關店家" : {
+        "僑緣越南美食" : {
+          "title" : "僑緣越南美食"
+        },
+        "滿福台越小館" : {
+          "title" : "滿福台越小館"
+        },
+        "越南大食館" : {
+          "title" : "越南大食館"
+        }
+      },
+      "製作方式" : "由水、米粉、黃薑粉、鹽、啤酒（或椰奶）等製成的餅皮，包入蝦、五花肉、豆芽菜等炒料。食用時取一大片生菜，放上煎餅及香草，最後捲起來，沾取魚露食用。"
+    },
+    "越式糯米飯" : {
+      "src" : "https://firebasestorage.googleapis.com/v0/b/webfinal-e58b9.appspot.com/o/%E7%B3%AF%E7%B1%B3%E9%A3%AF.jpg?alt=media&token=3cf19733-5078-4c95-8b34-2d11b3005e7d",
+      "src1" : "https://firebasestorage.googleapis.com/v0/b/webfinal-e58b9.appspot.com/o/%E7%B3%AF%E7%B1%B3%E9%A3%AF1.jpg?alt=media&token=99bccd61-4973-4f46-ae10-ef7b93a18882",
+      "title" : "越式糯米飯",
+      "名稱" : "糯米飯在越南語中稱為Xôi。",
+      "歷史" : "糯米飯是越南民族傳統美食，重要節日都少不了它。同時，糯米飯也是越南人非常普遍而可口的早餐之一。",
+      "相關店家" : {
+        "大東海越南餐廳" : {
+          "title" : "大東海越南餐廳"
+        },
+        "道地越南美食" : {
+          "title" : "道地越南美食"
+        },
+        "順化米線" : {
+          "title" : "順化米線"
+        }
+      },
+      "製作方式" : "越式糯米飯甜鹹口味都有，最簡單的吃法是加上肉鬆、淋上滷肉湯汁。想吃豐盛些，在糯米飯上鋪上削成片的綠豆泥，口感鬆軟綿密，再撒上油蔥酥，加顆滷蛋點綴，配著精肉團和肉鬆。配料可隨個人喜好搭配，雞肉絲、滷肉是許多人的首選。"
+    }
+  },
+  "shop" : {
+    "僑緣越南美食" : {
+      "menu" : "https://firebasestorage.googleapis.com/v0/b/webfinal-e58b9.appspot.com/o/%E5%83%91%E7%B7%A3%E8%8F%9C%E5%96%AE.jpg?alt=media&token=984ac77b-981a-46a8-841e-2fa3a352156b",
+      "src1" : "https://firebasestorage.googleapis.com/v0/b/webfinal-e58b9.appspot.com/o/%E5%83%91%E7%B7%A31.jpg?alt=media&token=52c4884d-7eae-4be2-ac54-8ec1173459f5",
+      "title" : "僑緣越南美食",
+      "公休時間" : "無固定",
+      "圖" : {
+        "src" : "https://firebasestorage.googleapis.com/v0/b/webfinal-e58b9.appspot.com/o/%E5%83%91%E7%B7%A3.jpg?alt=media&token=f7634a76-4b94-4ac1-b57c-80f5eaaa0e4f",
+        "src1" : "https://firebasestorage.googleapis.com/v0/b/webfinal-e58b9.appspot.com/o/%E5%83%91%E7%B7%A3%E7%85%A7%E7%89%871.jpg?alt=media&token=27f8ff6e-7b8a-4d79-a25a-396762c5d1d1",
+        "src2" : "https://firebasestorage.googleapis.com/v0/b/webfinal-e58b9.appspot.com/o/%E5%83%91%E7%B7%A3%E7%85%A7%E7%89%872.jpg?alt=media&token=442a04e4-c7f1-4856-8430-f21f8b5b8517"
+      },
+      "地址" : "文山區興隆路三段112巷4弄46號",
+      "營業時間" : "11:30–14:30/17:30–20:30",
+      "特色" : "服務親切，餐點美味",
+      "相關美食" : {
+        "越南咖啡" : {
+          "title" : "越南咖啡"
+        },
+        "越南河粉" : {
+          "title" : "越南河粉"
+        },
+        "越南生春捲" : {
+          "title" : "越南生春捲"
+        },
+        "越式煎餅" : {
+          "title" : "越式煎餅"
+        }
+      },
+      "電話" : "(02)29335585"
+    },
+    "大東海越南餐廳" : {
+      "menu" : "https://firebasestorage.googleapis.com/v0/b/webfinal-e58b9.appspot.com/o/%E5%A4%A7%E6%9D%B1%E6%B5%B7%E8%8F%9C%E5%96%AE.jpg?alt=media&token=753cdad5-2211-4fe4-a3a4-bf56392ee5b7",
+      "src1" : "https://firebasestorage.googleapis.com/v0/b/webfinal-e58b9.appspot.com/o/%E5%A4%A7%E6%9D%B1%E6%B5%B71.jpg?alt=media&token=8b2807f7-a95e-496b-a6d4-3c3eb440f36a",
+      "title" : "大東海越南餐廳",
+      "公休時間" : "每周一",
+      "圖" : {
+        "src" : "https://firebasestorage.googleapis.com/v0/b/webfinal-e58b9.appspot.com/o/%E5%A4%A7%E6%9D%B1%E6%B5%B7.jpg?alt=media&token=c87a0739-308c-451b-85ea-ebd5dc25b6f8",
+        "src1" : "https://firebasestorage.googleapis.com/v0/b/webfinal-e58b9.appspot.com/o/%E5%A4%A7%E6%9D%B1%E6%B5%B7%E7%85%A7%E7%89%871.jpg?alt=media&token=278c5dc6-c2fc-4e27-b134-a855c697a14f",
+        "src2" : "https://firebasestorage.googleapis.com/v0/b/webfinal-e58b9.appspot.com/o/%E5%A4%A7%E6%9D%B1%E6%B5%B7%E7%85%A7%E7%89%872.jpg?alt=media&token=d87d0ec2-f144-4dda-b24a-c22b6b4032e5"
+      },
+      "地址" : "文山區興隆路四段78號",
+      "營業時間" : "平日：6:30-14:00/17:00-20:00 假日：6:30-20:00",
+      "特色" : "道地，好吃，平價",
+      "相關美食" : {
+        "越南咖啡" : {
+          "title" : "越南咖啡"
+        },
+        "越南河粉" : {
+          "title" : "越南河粉"
+        },
+        "越南生春捲" : {
+          "title" : "越南生春捲"
+        },
+        "越式法國麵包" : {
+          "title" : "越式法國麵包"
+        },
+        "越式糯米飯" : {
+          "title" : "越式糯米飯"
+        }
+      },
+      "電話" : "(02)22342786"
+    },
+    "景美越南小吃" : {
+      "menu" : "https://firebasestorage.googleapis.com/v0/b/webfinal-e58b9.appspot.com/o/%E6%99%AF%E7%BE%8E%E8%B6%8A%E5%8D%97%E9%A4%90%E5%BB%B3%E8%8F%9C%E5%96%AE.jpg?alt=media&token=2b02ee6f-263d-4cc1-aa2d-3056ed4aff66",
+      "src1" : "https://firebasestorage.googleapis.com/v0/b/webfinal-e58b9.appspot.com/o/%E6%99%AF%E7%BE%8E%E8%B6%8A%E5%8D%97%E7%BE%8E%E9%A3%9F1.jpg?alt=media&token=79856434-8f08-4968-ae72-491c5876423c",
+      "title" : "景美越南小吃",
+      "公休時間" : "無固定",
+      "圖" : {
+        "src" : "https://firebasestorage.googleapis.com/v0/b/webfinal-e58b9.appspot.com/o/%E6%99%AF%E7%BE%8E%E8%B6%8A%E5%8D%97%E7%BE%8E%E9%A3%9F.jpg?alt=media&token=8e79831b-03bb-4b59-9bf4-0e544bef8f62",
+        "src1" : "https://firebasestorage.googleapis.com/v0/b/webfinal-e58b9.appspot.com/o/%E6%99%AF%E7%BE%8E%E8%B6%8A%E5%8D%97%E7%BE%8E%E9%A3%9F%E7%85%A7%E7%89%871.jpg?alt=media&token=bce3eee2-f9ed-4582-b8d6-fb906f675ed2",
+        "src2" : "https://firebasestorage.googleapis.com/v0/b/webfinal-e58b9.appspot.com/o/%E6%99%AF%E7%BE%8E%E8%B6%8A%E5%8D%97%E7%BE%8E%E9%A3%9F%E7%85%A7%E7%89%872.jpg?alt=media&token=f59d1370-5548-4282-9852-fd82db63fcba"
+      },
+      "地址" : "文山區景後街176號",
+      "營業時間" : "夜市時間",
+      "特色" : "口味清爽，麵包美味",
+      "相關美食" : {
+        "越南咖啡" : {
+          "title" : "越南咖啡"
+        },
+        "越南河粉" : {
+          "title" : "越南河粉"
+        },
+        "越南生春捲" : {
+          "title" : "越南生春捲"
+        },
+        "越式法國麵包" : {
+          "title" : "越式法國麵包"
+        }
+      },
+      "電話" : "0916932858"
+    },
+    "滿福台越小館" : {
+      "menu" : "https://firebasestorage.googleapis.com/v0/b/webfinal-e58b9.appspot.com/o/%E6%BB%BF%E7%A6%8F%E5%8F%B0%E8%B6%8A%E5%B0%8F%E9%A4%A8%20%E8%8F%9C%E5%96%AE.jpg?alt=media&token=21e36378-fc62-4b86-94b6-ef4b0269d744",
+      "src1" : "https://firebasestorage.googleapis.com/v0/b/webfinal-e58b9.appspot.com/o/%E6%BB%BF%E7%A6%8F1.jpg?alt=media&token=efe5c4eb-5d94-4b29-928c-ced760e1a7a4",
+      "title" : "滿福台越小館",
+      "公休時間" : "每月第1、3個星期一",
+      "圖" : {
+        "src" : "https://firebasestorage.googleapis.com/v0/b/webfinal-e58b9.appspot.com/o/%E6%BB%BF%E7%A6%8F%E5%8F%B0%E8%B6%8A%E5%B0%8F%E9%A4%A8.jpg?alt=media&token=3cd9e8c2-dab2-4de0-8c50-4377c6ba59a0",
+        "src1" : "https://firebasestorage.googleapis.com/v0/b/webfinal-e58b9.appspot.com/o/%E6%BB%BF%E7%A6%8F%E7%85%A7%E7%89%871.jpg?alt=media&token=8c8d2c4d-6e7f-47ad-81e9-cb304caac0ac",
+        "src2" : "https://firebasestorage.googleapis.com/v0/b/webfinal-e58b9.appspot.com/o/%E6%BB%BF%E7%A6%8F%E7%85%A7%E7%89%872.jpg?alt=media&token=4db7c011-d969-4a96-b8bb-37946a14ac9c"
+      },
+      "地址" : "文山區新光路一段79號",
+      "營業時間" : "11:30-14:30/17:00-21:00",
+      "特色" : "用餐環境乾淨，道地的越南菜",
+      "相關美食" : {
+        "越南咖啡" : {
+          "title" : "越南咖啡"
+        },
+        "越南河粉" : {
+          "title" : "越南河粉"
+        },
+        "越南生春捲" : {
+          "title" : "越南生春捲"
+        },
+        "越式法國麵包" : {
+          "title" : "越式法國麵包"
+        },
+        "越式煎餅" : {
+          "title" : "越式煎餅"
+        }
+      },
+      "電話" : "(02)86615662"
+    },
+    "華越美食" : {
+      "menu" : "https://firebasestorage.googleapis.com/v0/b/webfinal-e58b9.appspot.com/o/%E8%8F%AF%E8%B6%8A%E7%BE%8E%E9%A3%9F%20%E8%8F%9C%E5%96%AE.jpg?alt=media&token=86a000b2-baf8-4ba3-927d-4f6a24ad8bb1",
+      "src1" : "https://firebasestorage.googleapis.com/v0/b/webfinal-e58b9.appspot.com/o/%E8%8F%AF%E8%B6%8A.jpg?alt=media&token=a71dc376-0214-4f5c-bc36-0456088d29da",
+      "title" : "華越美食",
+      "公休時間" : "無固定",
+      "圖" : {
+        "src" : "https://firebasestorage.googleapis.com/v0/b/webfinal-e58b9.appspot.com/o/%E8%8F%AF%E8%B6%8A.jpg?alt=media&token=a71dc376-0214-4f5c-bc36-0456088d29da",
+        "src1" : "https://firebasestorage.googleapis.com/v0/b/webfinal-e58b9.appspot.com/o/%E8%8F%AF%E8%B6%8A%E7%85%A7%E7%89%871.jpg?alt=media&token=57abb53b-25a4-428a-8d3b-e34b30695733",
+        "src2" : "https://firebasestorage.googleapis.com/v0/b/webfinal-e58b9.appspot.com/o/%E8%8F%AF%E8%B6%8A%E7%85%A7%E7%89%872.jpg?alt=media&token=c2416214-7c89-4493-93f4-fd2779440e91"
+      },
+      "地址" : "文山區指南路二段205號",
+      "營業時間" : "平日：11:00-14:00/17:00-20:00 假日：12:00-14:00/17:00-20:00",
+      "特色" : "風味獨特、咖哩麵包是特色",
+      "相關美食" : {
+        "越南河粉" : {
+          "title" : "越南河粉"
+        },
+        "越南生春捲" : {
+          "title" : "越南生春捲"
+        }
+      },
+      "電話" : "(02)86619291"
+    },
+    "西貢越南美食" : {
+      "menu" : "https://firebasestorage.googleapis.com/v0/b/webfinal-e58b9.appspot.com/o/%E8%A5%BF%E8%B2%A2%E8%8F%9C%E5%96%AE.jpg?alt=media&token=0d7a418d-8059-4b84-9099-7c0f7f3e6b35",
+      "src1" : "https://firebasestorage.googleapis.com/v0/b/webfinal-e58b9.appspot.com/o/%E8%A5%BF%E8%B2%A21.jpg?alt=media&token=5ff6976f-e80a-4ff9-a429-7ad9af7a4916",
+      "title" : "西貢越南美食",
+      "公休時間" : "星期三",
+      "圖" : {
+        "src" : "https://firebasestorage.googleapis.com/v0/b/webfinal-e58b9.appspot.com/o/%E8%A5%BF%E8%B2%A2.jpg?alt=media&token=ed319ed3-6b66-41bd-9dfe-0b01631f5f36",
+        "src1" : "https://firebasestorage.googleapis.com/v0/b/webfinal-e58b9.appspot.com/o/%E8%A5%BF%E8%B2%A2%E7%BE%8E%E9%A3%9F1.jpg?alt=media&token=643077ef-8a08-4524-a2ab-9e7205982107",
+        "src2" : "https://firebasestorage.googleapis.com/v0/b/webfinal-e58b9.appspot.com/o/%E8%A5%BF%E8%B2%A2%E7%BE%8E%E9%A3%9F2.jpg?alt=media&token=7576863e-3bea-42d4-8ab3-fcbfc1dd1915"
+      },
+      "地址" : "文山區興隆路三段36巷14弄2號",
+      "營業時間" : "11:00-14:00/17:00-20:30",
+      "特色" : "結合台灣人口味",
+      "相關美食" : {
+        "越南河粉" : {
+          "title" : "越南河粉"
+        }
+      },
+      "電話" : "(02)29348717"
+    },
+    "越南大食館" : {
+      "menu" : "https://firebasestorage.googleapis.com/v0/b/webfinal-e58b9.appspot.com/o/%E8%B6%8A%E5%8D%97%E5%A4%A7%E9%A3%9F%E9%A4%A8%E8%8F%9C%E5%96%AE.jpg?alt=media&token=9012ce9c-d896-440b-b516-ed404ba37a96",
+      "src1" : "https://firebasestorage.googleapis.com/v0/b/webfinal-e58b9.appspot.com/o/%E8%B6%8A%E5%8D%97%E5%A4%A7%E9%A3%9F%E9%A4%A81.jpg?alt=media&token=4060e55f-8bb1-4f2a-bc62-402957999eaa",
+      "title" : "越南大食館",
+      "公休時間" : "無固定",
+      "圖" : {
+        "src" : "https://firebasestorage.googleapis.com/v0/b/webfinal-e58b9.appspot.com/o/%E8%B6%8A%E5%8D%97%E5%A4%A7%E9%A3%9F%E9%A4%A8.jpg?alt=media&token=5215e53c-3fd3-4105-b564-c729fc9cfee1",
+        "src1" : "https://firebasestorage.googleapis.com/v0/b/webfinal-e58b9.appspot.com/o/%E8%B6%8A%E5%8D%97%E5%A4%A7%E9%A3%9F%E9%A4%A8.jpg?alt=media&token=5215e53c-3fd3-4105-b564-c729fc9cfee1",
+        "src2" : "https://firebasestorage.googleapis.com/v0/b/webfinal-e58b9.appspot.com/o/%E8%B6%8A%E5%8D%97%E5%A4%A7%E9%A3%9F%E9%A4%A8%E7%85%A7%E7%89%872.jpg?alt=media&token=07ba0a6b-3c90-47c1-a5b2-402352f444a9"
+      },
+      "地址" : "文山區保儀路86號",
+      "營業時間" : "9:00-20:00",
+      "特色" : "湯頭很道地",
+      "相關美食" : {
+        "越南咖啡" : {
+          "title" : "越南咖啡"
+        },
+        "越南河粉" : {
+          "title" : "越南河粉"
+        },
+        "越南生春捲" : {
+          "title" : "越南生春捲"
+        },
+        "越式法國麵包" : {
+          "title" : "越式法國麵包"
+        },
+        "越式煎餅" : {
+          "title" : "越式煎餅"
+        }
+      },
+      "電話" : "(02)86614115"
+    },
+    "道地越南美食" : {
+      "menu" : "https://firebasestorage.googleapis.com/v0/b/webfinal-e58b9.appspot.com/o/%E9%81%93%E5%9C%B0%E8%B6%8A%E5%8D%97%E5%B0%8F%E5%90%83%E8%8F%9C%E5%96%AE.jpg?alt=media&token=e9d22941-a72e-469a-b7bf-feb50f2db77b",
+      "src1" : "https://firebasestorage.googleapis.com/v0/b/webfinal-e58b9.appspot.com/o/%E9%81%93%E5%9C%B0%E8%B6%8A%E5%8D%97%E5%B0%8F%E5%90%83%E5%BA%971.jpg?alt=media&token=3332ad78-b9cb-439f-9ca9-2a4b038d90b0",
+      "title" : "道地越南美食",
+      "公休時間" : "星期一",
+      "圖" : {
+        "src" : "https://firebasestorage.googleapis.com/v0/b/webfinal-e58b9.appspot.com/o/%E9%81%93%E5%9C%B0%E8%B6%8A%E5%8D%97%E5%B0%8F%E5%90%83%E5%BA%97.jpg?alt=media&token=a921aa7e-20a6-4bb5-86a0-868884258338",
+        "src1" : "https://firebasestorage.googleapis.com/v0/b/webfinal-e58b9.appspot.com/o/%E9%81%93%E5%9C%B0%E8%B6%8A%E5%8D%97%E5%B0%8F%E5%90%83%E8%8F%9C%E5%96%AE.jpg?alt=media&token=e9d22941-a72e-469a-b7bf-feb50f2db77b",
+        "src2" : "https://firebasestorage.googleapis.com/v0/b/webfinal-e58b9.appspot.com/o/%E9%81%93%E5%9C%B0%E8%B6%8A%E5%8D%97%E5%B0%8F%E5%90%83.jpg?alt=media&token=62997c97-b325-4151-a8d9-1966e534881e"
+      },
+      "地址" : "文山區木新路三段232巷13號",
+      "營業時間" : "9:00-20:00",
+      "特色" : "料理十分道地，且每天都有不同菜色",
+      "相關美食" : {
+        "越南咖啡" : {
+          "title" : "越南咖啡"
+        },
+        "越南河粉" : {
+          "title" : "越南河粉"
+        },
+        "越式法國麵包" : {
+          "title" : "越式法國麵包"
+        },
+        "越式糯米飯" : {
+          "title" : "越式糯米飯"
+        }
+      },
+      "電話" : "暫無"
+    },
+    "順化米線" : {
+      "menu" : "https://firebasestorage.googleapis.com/v0/b/webfinal-e58b9.appspot.com/o/%E9%A0%86%E5%8C%96%E7%B1%B3%E7%B7%9A%E8%8F%9C%E5%96%AE.jpg?alt=media&token=faef4403-18c4-423f-8716-1c01d9a2a6e0",
+      "src1" : "https://firebasestorage.googleapis.com/v0/b/webfinal-e58b9.appspot.com/o/%E9%A0%86%E5%8C%96%E7%B1%B3%E7%B7%9A2.jpg?alt=media&token=591b9a76-2b90-4628-b403-7fe52a9f637f",
+      "title" : "順化米線",
+      "公休時間" : "星期日",
+      "圖" : {
+        "src" : "https://firebasestorage.googleapis.com/v0/b/webfinal-e58b9.appspot.com/o/%E9%A0%86%E5%8C%96%E7%B1%B3%E7%B7%9A.jpg?alt=media&token=69db8ed2-2c4b-4673-bf9b-bdeb7690b192",
+        "src1" : "https://firebasestorage.googleapis.com/v0/b/webfinal-e58b9.appspot.com/o/%E9%A0%86%E5%8C%96%E7%B1%B3%E7%B7%9A%E7%85%A7%E7%89%871.jpg?alt=media&token=5efc2ecd-7b52-4023-937f-55a1215b4f8c",
+        "src2" : "https://firebasestorage.googleapis.com/v0/b/webfinal-e58b9.appspot.com/o/%E9%A0%86%E5%8C%96%E7%B1%B3%E7%B7%9A%E7%85%A7%E7%89%872.jpg?alt=media&token=bdf13327-90aa-430d-aab1-cce71b289fc9"
+      },
+      "地址" : "台北市文山區興隆路4 段145巷20號",
+      "營業時間" : "11:00-20:00",
+      "特色" : "烤肉飯十分好吃",
+      "相關美食" : {
+        "越南咖啡" : {
+          "title" : "越南咖啡"
+        },
+        "越南河粉" : {
+          "title" : "越南河粉"
+        },
+        "越式糯米飯" : {
+          "title" : "越式糯米飯"
+        }
+      },
+      "電話" : "(02)86610904"
     }
   }
 }
