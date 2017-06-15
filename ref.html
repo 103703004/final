@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="https://use.fontawesome.com/3aac789b17.js"></script>
+    <title>文山越南美食大搜查</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-toggleable-md navbar-light bg-faded fixed-top">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand title" href="mainPage.html">
+                <i class="fa fa-home" aria-hidden="true"></i>
+                文山越南美食大搜查
+            </a>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle bigNav" href="#" id="navbarFoodLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">美食品嘗</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarFoodLink">
+                            <div id="appNav">
+                                <div v-for="(s , aid) in activities">
+                                    <a class="dropdown-item" :href="'food.html?aid=' + aid">{{s.title}}</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle bigNav" href="#" id="navbarShopLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">店家探索</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarShopLink">
+                            <div id="appNav1">
+                                <div v-for="(s , aid) in activities">
+                                    <a class="dropdown-item" :href="'shop.html?aid=' + aid">{{s.title}}</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ref.html">參考資料</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <p>越南河粉：<br>
+            1.https://nommagazine.com/%E8%B6%8A%E5%8D%97%E6%B2%B3%E7%B2%89%EF%BC%9A%E8%9E%8D%E6%9C%83%E6%9D%B1%E8%A5%BF%E7%9A%84%E7%BE%8E%E5%91%B3%E7%B5%90%E6%99%B6/<br>
+            2.https://zh.wikipedia.org/wiki/%E8%B6%8A%E5%8D%97%E7%B2%89 3. https://epicbud.wordpress.com/2016/07/06/%E8%B6%8A%E5%8D%97%E7%89%9B%E8%82%89%E6%B2%B3%E7%B2%89-%EF%BC%88pho%EF%BC%89/<br>
+            越南生春捲：<br>
+            1.https://nommagazine.com/%E5%A4%8F%E6%97%A5%E7%9A%84%E9%A1%8F%E8%89%B2%EF%BC%9A%E7%9B%88%E9%80%8F%E6%B8%85%E7%88%BD%E7%9A%84%E8%B6%8A%E5%8D%97%E7%94%9F%E6%98%A5%E6%8D%B2/<br>
+            越式法國麵包：<br>
+            1.https://zh.wikipedia.org/wiki/%E8%B6%8A%E5%BC%8F%E6%B3%95%E5%8C%85<br>
+            2.http://www.shs.edu.tw/works/essay/2015/03/2015031121143941.pdf<br>
+            方形肉粽：<br>
+            1.https://nommagazine.com/wp-content/uploads/2016/06/2-6.jpg<br>
+            2.https://www.pangrice.com.tw/vietnamdumpling/<br>
+            3.https://zh.wikipedia.org/wiki/%E7%B2%BD#.E8.B6.8A.E5.8D.97<br>
+            越南咖啡：<br>
+            1.https://zh.wikipedia.org/wiki/%E8%B6%8A%E5%8D%97%E5%92%96%E5%95%A1<br>
+            2.http://www.inmediahk.net/node/1044561<br>
+            越式煎餅：<br>
+            1.https://zh.wikipedia.org/wiki/%E8%B6%8A%E5%8D%97%E7%85%8E%E9%A4%85<br>
+            2.http://finedininglovers.cdn.crosscast-system.com/ImageAlbum/16259/original_Banh-Xeo.jpg<br>
+            越式糯米飯：<br>
+            1.http://vovworld.vn/zh-CN/%E8%B6%8A%E5%8D%97%E4%B9%8B%E7%AA%97/%E5%AF%8C%E4%B8%8A%E6%9D%91%E7%9A%84%E7%B3%AF%E7%B1%B3%E9%A5%AD-378280.vov<br>
+            2.https://click-vietnam.com/2016/02/26/%E4%B9%9D%E9%81%93%E4%B8%8D%E5%8F%AF%E4%B8%8D%E5%90%83%E7%9A%84%E8%B6%8A%E5%BC%8F%E6%97%A9%E9%A4%90/<br>
+            3.https://2.bp.blogspot.com/-x1O4r1V8Jxc/V19J53Hlt-I/AAAAAAAAAqM/9NP2junZuqE0UWxCHsC9C_UfdpcwWKrOQCKgB/s1600/3_1.jpg</p>
+    </div>
+    <footer>
+        <a href="mainPage.html?aid=美食地圖" class="part33">
+            <i class="fa fa-map-marker" aria-hidden="true"></i>
+            <br>
+            <p>店家導覽</p>
+        </a>
+        <a href="mainPage.html?aid=特色美食" class="part33">
+            <i class="fa fa-heart" aria-hidden="true"></i>
+            <br>
+            <p>特色美食</p>
+        </a>
+        <a href="mainPage.html?aid=推薦店家" class="part33">
+            <i class="fa fa-share" aria-hidden="true"></i>
+            <br>
+            <p>推薦店家</p>
+        </a>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/vue"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.0.0/firebase.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+</body>
