@@ -9,7 +9,7 @@ function getParameterByName(name, url) {
 }
 
 var aid = getParameterByName('aid');
-console.log(aid)
+//console.log(aid)
 
 var app = new Vue({
     el: "#app",

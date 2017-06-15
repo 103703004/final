@@ -40,7 +40,7 @@ var app = new Vue({
             var msg = dataSnapshot.val();
             //console.log(msg.暫無.title);
             if(msg.暫無){
-                console.log(msg.暫無.title);
+                //console.log(msg.暫無.title);
                 //$("#none").text(msg.暫無.title)
                 $("#store").attr("display","none")
             }
