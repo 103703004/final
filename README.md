@@ -31,3 +31,12 @@
 1.http://vovworld.vn/zh-CN/%E8%B6%8A%E5%8D%97%E4%B9%8B%E7%AA%97/%E5%AF%8C%E4%B8%8A%E6%9D%91%E7%9A%84%E7%B3%AF%E7%B1%B3%E9%A5%AD-378280.vov
 2.https://click-vietnam.com/2016/02/26/%E4%B9%9D%E9%81%93%E4%B8%8D%E5%8F%AF%E4%B8%8D%E5%90%83%E7%9A%84%E8%B6%8A%E5%BC%8F%E6%97%A9%E9%A4%90/
 3.https://2.bp.blogspot.com/-x1O4r1V8Jxc/V19J53Hlt-I/AAAAAAAAAqM/9NP2junZuqE0UWxCHsC9C_UfdpcwWKrOQCKgB/s1600/3_1.jpg
+
+越南米線：
+1.https://nommagazine.com/%E4%B8%8D%E6%98%AF%E5%8F%AA%E6%9C%89%E6%B2%B3%E7%B2%89%EF%BC%81%E4%BD%A0%E6%89%80%E4%B8%8D%E7%9F%A5%E7%9A%84%E8%B6%8A%E5%8D%97%E7%BE%8E%E9%A3%9F/
+2.http://saigonplus.net/wp-content/uploads/2015/11/Screenshot_2.jpg
+
+越式涼拌青木瓜絲：
+1.http://www.appledaily.com.tw/appledaily/article/supplement/20150906/36762362/
+2.http://wu700407.pixnet.net/blog/post/41065547-%E8%B6%8A%E5%8D%97%E6%B6%BC%E6%8B%8C%E9%9D%92%E6%9C%A8%E7%93%9C-
+3.http://farm7.static.flickr.com/6014/5990436136_cd4aa9a236.jpg
