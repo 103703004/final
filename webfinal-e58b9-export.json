@@ -109,6 +109,65 @@
       },
       "製作方式" : "越南生春捲的餡料變化多端，一般來是以半透明的Q彈米紙包入肉、蔬菜、香草、米粉等，再沾著甜中帶酸、酸中帶鹹的醬汁一起享用。"
     },
+    "越南米線" : {
+      "src" : "https://firebasestorage.googleapis.com/v0/b/webfinal-e58b9.appspot.com/o/%E8%B6%8A%E5%8D%97%E7%B1%B3%E7%B7%9A.jpg?alt=media&token=9a7220b0-5de7-4622-9969-ea08f531a8b3",
+      "src1" : "https://firebasestorage.googleapis.com/v0/b/webfinal-e58b9.appspot.com/o/%E8%B6%8A%E5%8D%97%E7%B1%B3%E7%B7%9A1.jpg?alt=media&token=792b1f35-c1e8-4a6f-8a16-1afdba861706",
+      "title" : "越南米線",
+      "名稱" : "越南米線，越南語稱Bún。",
+      "歷史" : "有人說，河粉、順化牛肉米線及海鮮米線是越南三大米食湯料理。",
+      "相關店家" : {
+        "僑緣越南美食" : {
+          "title" : "僑緣越南美食"
+        },
+        "大東海越南餐廳" : {
+          "title" : "大東海越南餐廳"
+        },
+        "景美越南小吃" : {
+          "title" : "景美越南小吃"
+        },
+        "滿福台越小館" : {
+          "title" : "滿福台越小館"
+        },
+        "華越美食" : {
+          "title" : "華越美食"
+        },
+        "越南大食館" : {
+          "title" : "越南大食館"
+        },
+        "道地越南美食" : {
+          "title" : "道地越南美食"
+        },
+        "順化米線" : {
+          "title" : "順化米線"
+        }
+      },
+      "製作方式" : "越南米線有多種不同風味。最著名的如：順化牛肉米線，以豬骨及牛骨為底熬湯，加入香茅、胭脂樹籽及蝦醬烹煮，最後再以香草及萊姆汁等調味。一碗牛肉米線除了米線、牛腱，還有越南火腿及豬蹄，更傳統的，還吃的到豬血。口味辣中帶甜，鹹中帶酸，看起來濃郁，其實清爽無比。還有以番茄熬底的海鮮米線，番茄的酸爽被蝦醬調合，最後再加入蟹肉碎和切片番茄，配上米線意外地清爽解膩。烤肉米線也別具風味，以魚露調味的湯頭，再加入醃蘿蔔及烤豬肉等配料而成。吃的時候，可以把一旁的米線放進湯裡沾著吃，也可以把肉和米線包進生菜裡一起吃。"
+    },
+    "越式排骨" : {
+      "src" : "https://firebasestorage.googleapis.com/v0/b/webfinal-e58b9.appspot.com/o/%E8%B6%8A%E5%BC%8F%E6%8E%92%E9%AA%A8.jpg?alt=media&token=6613b8e3-25ff-46b1-9bb8-18e83b0785b2",
+      "src1" : "https://firebasestorage.googleapis.com/v0/b/webfinal-e58b9.appspot.com/o/%E8%B6%8A%E5%BC%8F%E6%8E%92%E9%AA%A81.jpg?alt=media&token=7c41cccb-8dd5-4a12-b665-e55e94ba23c9",
+      "title" : "越式排骨",
+      "名稱" : "越式排骨",
+      "歷史" : "無",
+      "相關店家" : {
+        "僑緣越南美食" : {
+          "title" : "僑緣越南美食"
+        },
+        "大東海越南餐廳" : {
+          "title" : "大東海越南餐廳"
+        },
+        "華越美食" : {
+          "title" : "華越美食"
+        },
+        "西貢越南美食" : {
+          "title" : "西貢越南美食"
+        },
+        "越南大食館" : {
+          "title" : "越南大食館"
+        }
+      },
+      "製作方式" : "與台式排骨不同，越式排骨多了一味：香茅。排骨以香茅、魚露、醬油、蒜等醃過後，再入鍋煎炸。並搭配紅白蘿蔔泡菜食用。"
+    },
     "越式法國麵包" : {
       "src" : "https://firebasestorage.googleapis.com/v0/b/webfinal-e58b9.appspot.com/o/%E8%B6%8A%E5%BC%8F%E6%B3%95%E5%9C%8B%E9%BA%B5%E5%8C%85.jpg?alt=media&token=2552f427-bbde-4771-8ee2-3f23863050ae",
       "src1" : "https://firebasestorage.googleapis.com/v0/b/webfinal-e58b9.appspot.com/o/%E8%B6%8A%E5%BC%8F%E6%B3%95%E5%9C%8B%E9%BA%B5%E5%8C%851.jpg?alt=media&token=293ff9bc-6fa0-4565-8f7c-5432e9a693b2",
@@ -133,6 +192,34 @@
         }
       },
       "製作方式" : "製作麵包時，除了用麵粉外，亦會加入米粉，質感相對較脆，也較傳統法國麵包輕。當地人進食時，常常夾入帶甜酸味的白紅蘿蔔絲醃菜、新鮮黃瓜、芫荽、辣椒，塗以豬肝醬、奶油，加入不同肉片，但多數不用起司。"
+    },
+    "越式涼拌青木瓜絲" : {
+      "src" : "https://firebasestorage.googleapis.com/v0/b/webfinal-e58b9.appspot.com/o/%E9%9D%92%E6%9C%A8%E7%93%9C.jpg?alt=media&token=3896b833-8b8a-44f0-bf94-916ab0c9e930",
+      "src1" : "https://firebasestorage.googleapis.com/v0/b/webfinal-e58b9.appspot.com/o/%E9%9D%92%E6%9C%A8%E7%93%9C1.jpg?alt=media&token=99a4e5c5-2ed8-4a8c-b393-c6691ec0a837",
+      "title" : "越式涼拌青木瓜絲",
+      "名稱" : "越式涼拌青木瓜絲。",
+      "歷史" : "無。",
+      "相關店家" : {
+        "景美越南小吃" : {
+          "title" : "景美越南小吃"
+        },
+        "滿福台越小館" : {
+          "title" : "滿福台越小館"
+        },
+        "華越美食" : {
+          "title" : "華越美食"
+        },
+        "西貢越南美食" : {
+          "title" : "西貢越南美食"
+        },
+        "越南大食館" : {
+          "title" : "越南大食館"
+        },
+        "順化米線" : {
+          "title" : "順化米線"
+        }
+      },
+      "製作方式" : "將青木瓜絲、小番茄等拌入以檸檬汁、水、椰糖、蒜末、蝦米、魚露調製而成醬汁，再灑上雞絲、鮮蝦、花生等增加口感。"
     },
     "越式煎餅" : {
       "src" : "https://firebasestorage.googleapis.com/v0/b/webfinal-e58b9.appspot.com/o/%E8%B6%8A%E5%BC%8F%E7%85%8E%E9%A4%85.jpg?alt=media&token=28314ef9-52ad-4512-a004-fc16be56c4b2",
@@ -197,9 +284,15 @@
         "越南生春捲" : {
           "title" : "越南生春捲"
         },
+        "越南米線" : {
+          "title" : "越南米線"
+        },
         "越式煎餅" : {
           "title" : "越式煎餅"
         }
+      },
+      "越式排骨" : {
+        "title" : "越式排骨"
       },
       "電話" : "(02)29335585"
     },
@@ -225,6 +318,12 @@
         },
         "越南生春捲" : {
           "title" : "越南生春捲"
+        },
+        "越南米線" : {
+          "title" : "越南米線"
+        },
+        "越式排骨" : {
+          "title" : "越式排骨"
         },
         "越式法國麵包" : {
           "title" : "越式法國麵包"
@@ -258,8 +357,14 @@
         "越南生春捲" : {
           "title" : "越南生春捲"
         },
+        "越南米線" : {
+          "title" : "越南米線"
+        },
         "越式法國麵包" : {
           "title" : "越式法國麵包"
+        },
+        "越式涼拌青木瓜絲" : {
+          "title" : "越式涼拌青木瓜絲"
         }
       },
       "電話" : "0916932858"
@@ -287,8 +392,14 @@
         "越南生春捲" : {
           "title" : "越南生春捲"
         },
+        "越南米線" : {
+          "title" : "越南米線"
+        },
         "越式法國麵包" : {
           "title" : "越式法國麵包"
+        },
+        "越式涼拌青木瓜絲" : {
+          "title" : "越式涼拌青木瓜絲"
         },
         "越式煎餅" : {
           "title" : "越式煎餅"
@@ -315,6 +426,15 @@
         },
         "越南生春捲" : {
           "title" : "越南生春捲"
+        },
+        "越南米線" : {
+          "title" : "越南米線"
+        },
+        "越式排骨" : {
+          "title" : "越式排骨"
+        },
+        "越式涼拌青木瓜絲" : {
+          "title" : "越式涼拌青木瓜絲"
         }
       },
       "電話" : "(02)86619291"
@@ -335,6 +455,12 @@
       "相關美食" : {
         "越南河粉" : {
           "title" : "越南河粉"
+        },
+        "越式排骨" : {
+          "title" : "越式排骨"
+        },
+        "越式涼拌青木瓜絲" : {
+          "title" : "越式涼拌青木瓜絲"
         }
       },
       "電話" : "(02)29348717"
@@ -346,7 +472,7 @@
       "公休時間" : "無固定",
       "圖" : {
         "src" : "https://firebasestorage.googleapis.com/v0/b/webfinal-e58b9.appspot.com/o/%E8%B6%8A%E5%8D%97%E5%A4%A7%E9%A3%9F%E9%A4%A8.jpg?alt=media&token=5215e53c-3fd3-4105-b564-c729fc9cfee1",
-        "src1" : "https://firebasestorage.googleapis.com/v0/b/webfinal-e58b9.appspot.com/o/%E8%B6%8A%E5%8D%97%E5%A4%A7%E9%A3%9F%E9%A4%A8.jpg?alt=media&token=5215e53c-3fd3-4105-b564-c729fc9cfee1",
+        "src1" : "https://firebasestorage.googleapis.com/v0/b/webfinal-e58b9.appspot.com/o/%E8%B6%8A%E5%8D%97%E5%A4%A7%E7%9F%B3%E9%A4%A8%E7%85%A7%E7%89%87.jpg?alt=media&token=8131720f-7b77-4c93-b3f8-ad2ff5914280",
         "src2" : "https://firebasestorage.googleapis.com/v0/b/webfinal-e58b9.appspot.com/o/%E8%B6%8A%E5%8D%97%E5%A4%A7%E9%A3%9F%E9%A4%A8%E7%85%A7%E7%89%872.jpg?alt=media&token=07ba0a6b-3c90-47c1-a5b2-402352f444a9"
       },
       "地址" : "文山區保儀路86號",
@@ -362,8 +488,17 @@
         "越南生春捲" : {
           "title" : "越南生春捲"
         },
+        "越南米線" : {
+          "title" : "越南米線"
+        },
+        "越式排骨" : {
+          "title" : "越式排骨"
+        },
         "越式法國麵包" : {
           "title" : "越式法國麵包"
+        },
+        "越式涼拌青木瓜絲" : {
+          "title" : "越式涼拌青木瓜絲"
         },
         "越式煎餅" : {
           "title" : "越式煎餅"
@@ -390,6 +525,9 @@
         },
         "越南河粉" : {
           "title" : "越南河粉"
+        },
+        "越南米線" : {
+          "title" : "越南米線"
         },
         "越式法國麵包" : {
           "title" : "越式法國麵包"
@@ -419,6 +557,12 @@
         },
         "越南河粉" : {
           "title" : "越南河粉"
+        },
+        "越南米線" : {
+          "title" : "越南米線"
+        },
+        "越式涼拌青木瓜絲" : {
+          "title" : "越式涼拌青木瓜絲"
         },
         "越式糯米飯" : {
           "title" : "越式糯米飯"

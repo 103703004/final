@@ -40,3 +40,8 @@
 1.http://www.appledaily.com.tw/appledaily/article/supplement/20150906/36762362/
 2.http://wu700407.pixnet.net/blog/post/41065547-%E8%B6%8A%E5%8D%97%E6%B6%BC%E6%8B%8C%E9%9D%92%E6%9C%A8%E7%93%9C-
 3.http://farm7.static.flickr.com/6014/5990436136_cd4aa9a236.jpg
+
+越式排骨：
+1.http://vvtpr168.pixnet.net/blog/post/134243887-%E5%8F%B0%E4%B8%AD%E7%95%B0%E5%9C%8B%E6%96%99%E7%90%86%EF%BC%9A%E8%B6%8A%E5%8D%97%E8%8F%9C%E3%80%8E%E9%A6%99%E8%8C%85%E6%8E%92%E9%AA%A8%E9%A3%AF%E3%80%8F
+2.http://rinrin1026.pixnet.net/blog/post/115957684-%5B%E9%A3%9F%E8%AD%9C%5D-%E9%A6%99%E8%8C%85%E6%8E%92%E9%AA%A8
+3.http://3.share.photo.xuite.net/r121627659/13d587c/10201937/464514091_m.jpg
